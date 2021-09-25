@@ -47,7 +47,6 @@ func Run(service application.ProductServiceInterface, action string, productId s
 		}
 		result = fmt.Sprintf("Product ID: %s\nName: %s\nPrice: %f\nStatus: %s", res.GetID(), res.GetName(), res.GetPrice(), res.GetStatus())
 	}
-
 	return result, nil
 
 }
